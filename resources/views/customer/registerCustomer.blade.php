@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.2/axios.min.js" integrity="sha512-NCiXRSV460cHD9ClGDrTbTaw0muWUBf/zB/yLzJavRsPNUl9ODkUVmUHsZtKu17XknhsGlmyVoJxLg/ZQQEeGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<title>Rocker - Bootstrap 5 Admin Dashboard Template</title>
+	<title>Cara - Admin</title>
 </head>
 
 <body class="bg-login">
@@ -60,7 +60,7 @@
 												<input name="email" type="email" class="form-control"  placeholder="example@user.com">
 											</div>
 											<div class="col-12">
-												<label class="form-label">Password</label>
+												<label class="form-label">Mật khẩu</label>
 												<div class="input-group">
 													<input name="password" type="password" class="form-control border-end-0" placeholder="Nhập vào mật khẩu"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 												</div>

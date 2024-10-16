@@ -23,8 +23,8 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">
-                            <button v-if="trang_thai == 1" class="btn btn-primary" v-on:click="trang_thai = 0">Login</button>
-                            <button v-else class="btn btn-primary" v-on:click="trang_thai = 1">Register</button>
+                            <button v-if="trang_thai == 1" class="btn btn-primary" v-on:click="trang_thai = 0">Đăng Nhập</button>
+                            <button v-else class="btn btn-primary" v-on:click="trang_thai = 1">Đăng ký</button>
                         </h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -32,7 +32,7 @@
                         <div v-if="trang_thai == 1" class="login-page">
                             <b>@{{ thong_bao }}</b>
                             <form style="max-width: 100% !important;" v-on:submit.prevent="add()" id="formdata" class="login-form common-form mx-auto">
-                                <h2 class="section-heading text-center">Register</h2>
+                                <h2 class="section-heading text-center">Đăng ký</h2>
                                 <div class="row">
                                     <div class="col-6">
                                         <fieldset>
@@ -48,19 +48,19 @@
                                     </div>
                                     <div class="col-6">
                                         <fieldset>
-                                            <label class="label">Email address</label>
+                                            <label class="label">Địa chỉ Email</label>
                                             <input required type="email" name="email" />
                                         </fieldset>
                                     </div>
                                     <div class="col-6">
                                         <fieldset>
-                                            <label class="label">Password</label>
+                                            <label class="label">Mật khẩu</label>
                                             <input required name="password" type="password" />
                                         </fieldset>
                                     </div>
                                     <div class="col-6">
                                         <fieldset>
-                                            <label class="label">Re Password</label>
+                                            <label class="label">Nhập lại mật khẩu</label>
                                             <input required name="re_password" type="password" />
                                         </fieldset>
                                     </div>
@@ -87,7 +87,7 @@
                                         </fieldset>
                                     </div>
                                     <div class="col-12 mt-3">
-                                        <button type="submit" class="btn-primary d-block mt-3 btn-signin">REGISTER</button>
+                                        <button type="submit" class="btn-primary d-block mt-3 btn-signin">Đăng ký</button>
                                     </div>
                                 </div>
                             </form>
@@ -96,18 +96,18 @@
                             <b>@{{ thong_bao }}</b>
                             <form v-on:submit.prevent="login()" id="formdata" class="login-form common-form mx-auto">
                                 <div class="section-header mb-3 text-end">
-                                    <h2 class="section-heading text-center">Login</h2>
+                                    <h2 class="section-heading text-center">Đăng Nhập</h2>
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
                                         <fieldset>
-                                            <label class="label">Email address</label>
+                                            <label class="label">Địa Chỉ</label>
                                             <input required type="email" name="email" />
                                         </fieldset>
                                     </div>
                                     <div class="col-12">
                                         <fieldset>
-                                            <label class="label">Password</label>
+                                            <label class="label">Mật khẩu</label>
                                             <input required name="password" type="password" />
                                         </fieldset>
                                     </div>
@@ -115,7 +115,7 @@
                                         <a href="/forgot-password" class="text_14 d-block">Quên Mật Khẩu?</a>
                                     </div>
                                     <div class="col-12 mt-3">
-                                        <button data-bs-dismiss="modal" type="submit" class="btn-primary d-block mt-3 btn-signin">LOGIN</button>
+                                        <button data-bs-dismiss="modal" type="submit" class="btn-primary d-block mt-3 btn-signin">Đăng Nhập</button>
                                     </div>
                                 </div>
                             </form>

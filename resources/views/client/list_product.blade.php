@@ -8,7 +8,7 @@
                 <div class="collection-title-wrap d-flex align-items-end" style="margin-top: 15px">
                     @if (isset($chuyenMuc))
                     <h2 class="collection-title heading_24 mb-0">{{ $chuyenMuc->ten_chuyen_muc}}</h2>
-                    <p class="collection-counter text_16 mb-0 ms-2">({{ count($data) }} items)</p>
+                    <p class="collection-counter text_16 mb-0 ms-2">({{ count($data) }} Mặt Hàng)</p>
                     @endif
                 </div>
 
@@ -94,7 +94,7 @@
         <div class="col-lg-3 col-md-12 col-12">
             <div class="collection-filter filter-drawer">
                 <div class="filter-widget d-lg-none d-flex align-items-center justify-content-between">
-                    <h5 class="heading_24">Sorting By</h4>
+                    <h5 class="heading_24">Sắp xếp theo</h4>
                     <button type="button" class="btn-close text-reset filter-drawer-trigger d-lg-none"></button>
                 </div>
 
@@ -102,8 +102,8 @@
                     <div class="filter-header faq-heading heading_18 d-flex align-items-center justify-content-between border-bottom"
                         data-bs-toggle="collapse" data-bs-target="#filter-mobile-sort">
                         <span>
-                            <span class="sorting-title me-2">Sort by:</span>
-                            <span class="active-sorting">Featured</span>
+                            <span class="sorting-title me-2">Sắp xếp theo:</span>
+                            <span class="active-sorting">Nổi bật</span>
                         </span>
                         <span class="faq-heading-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -115,14 +115,14 @@
                     </div>
                     <div id="filter-mobile-sort" class="accordion-collapse collapse show">
                         <ul class="sorting-lists-mobile list-unstyled m-0">
-                            <li><a href="#" class="text_14">Featured</a></li>
-                            <li><a href="#" class="text_14">Best Selling</a></li>
-                            <li><a href="#" class="text_14">Alphabetically, A-Z</a></li>
-                            <li><a href="#" class="text_14">Alphabetically, Z-A</a></li>
-                            <li><a href="#" class="text_14">Price, low to high</a></li>
-                            <li><a href="#" class="text_14">Price, high to low</a></li>
-                            <li><a href="#" class="text_14">Date, old to new</a></li>
-                            <li><a href="#" class="text_14">Date, new to old</a></li>
+                            <li><a href="#" class="text_14">Nổi bật</a></li>
+                            <li><a href="#" class="text_14">Bán chạy nhất</a></li>
+                            <li><a href="#" class="text_14">Theo thứ tự chữ cái, A-Z</a></li>
+                            <li><a href="#" class="text_14">Theo thứ tự chữ cái, Z-A</a></li>
+                            <li><a href="#" class="text_14">Giá, thấp đến cao</a></li>
+                            <li><a href="#" class="text_14">Giá, cao đến thấp</a></li>
+                            <li><a href="#" class="text_14">Ngày tháng, cũ đến mới</a></li>
+                            <li><a href="#" class="text_14">Ngày, mới đến cũ</a></li>
                         </ul>
                     </div>
                 </div>

@@ -50,7 +50,7 @@
                 @endforeach
             </div>
             <div class="view-all text-center" data-aos="fade-up" data-aos-duration="700">
-                <a class="btn-primary" href="#">VIEW ALL</a>
+                <a class="btn-primary" href="#">XEM TẤT CẢ</a>
             </div>
         </div>
     </div>

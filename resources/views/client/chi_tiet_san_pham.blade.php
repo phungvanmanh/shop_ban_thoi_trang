@@ -82,7 +82,7 @@
                             @endif
                         </div>
                         <div class="product-sku product-meta mb-1">
-                            <strong class="label">SKU:</strong> {{ $value->id + 158898 }}
+                            <strong class="label">Mã sản phẩm:</strong> {{ $value->id + 158898 }}
                             <input id="id_san_pham" type="hidden" value="{{$value->id}}">
                         </div>
                         <div class="product-vendor product-meta mb-3">
@@ -101,16 +101,16 @@
                                     <path d="M1.5 4.25V16.25H4.5V20.0703L5.71875 19.0859L9.25781 16.25H16.5V4.25H1.5ZM3 5.75H15V14.75H8.74219L8.53125 14.9141L6 16.9297V14.75H3V5.75ZM18 7.25V8.75H21V17.75H18V19.9297L15.2578 17.75H9.63281L7.75781 19.25H14.7422L19.5 23.0703V19.25H22.5V7.25H18Z" fill="black"/>
                                 </svg>
                                 </span>
-                                <span class="message-popup-text ms-2">Message</span>
+                                <span class="message-popup-text ms-2">Nhắn tin</span>
                             </div>
                         </div>
 
                         <form class="product-form" action="#">
                             <div class="product-form-buttons d-flex align-items-center justify-content-between mt-4">
                                 @if(Auth::guard('customer')->check())
-                                <button id="addtocart_me" class="position-relative btn-atc btn-add-to-cart loader">ADD TO CART</button>
+                                <button id="addtocart_me" class="position-relative btn-atc btn-add-to-cart loader">Thêm vào giỏ hàng</button>
                                 @else
-                                <button data-bs-toggle="modal" data-bs-target="#authModal" class="position-relative btn-atc btn-add-to-cart loader">ADD TO CART</button>
+                                <button data-bs-toggle="modal" data-bs-target="#authModal" class="position-relative btn-atc btn-add-to-cart loader">Thêm vào giỏ hàng</button>
                                 @endif
                                 <a href="wishlist.html" class="product-wishlist">
                                     <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,12 +119,12 @@
                                 </a>
                             </div>
                             <div class="buy-it-now-btn mt-2">
-                                <button type="submit" class="position-relative btn-atc btn-buyit-now">BUY IT NOW</button>
+                                <button type="submit" class="position-relative btn-atc btn-buyit-now">MUA NGAY</button>
                             </div>
                         </form>
 
                         <div class="guaranteed-checkout">
-                            <strong class="label mb-1 d-block">Guaranteed safe checkout:</strong>
+                            <strong class="label mb-1 d-block">Đảm bảo thanh toán an toàn:</strong>
                             <ul class="list-unstyled checkout-icon-list d-flex align-items-center flex-wrap">
                                 <li class="checkout-icon-item">
                                     <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -240,7 +240,7 @@
                         </div>
 
                         <div class="share-area mt-4 d-flex align-items-center">
-                            <strong class="label mb-1 d-block">Share:</strong>
+                            <strong class="label mb-1 d-block">Chia Sẻ:</strong>
                             <ul class="list-unstyled share-list d-flex align-items-center mb-1 flex-wrap">
                                 <li class="share-item">
                                     <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -280,10 +280,10 @@
         <div class="container">
             <div class="tab-list product-tab-list">
                 <nav class="nav product-tab-nav">
-                    <a class="product-tab-link tab-link active" href="#pdescription" data-bs-toggle="tab">Description</a>
-                    <a class="product-tab-link tab-link" href="#pshipping" data-bs-toggle="tab">Shipping & Returns</a>
-                    <a class="product-tab-link tab-link" href="#pstyle" data-bs-toggle="tab">Style with</a>
-                    <a class="product-tab-link tab-link" href="#preview" data-bs-toggle="tab">Reviews</a>
+                    <a class="product-tab-link tab-link active" href="#pdescription" data-bs-toggle="tab">Mô tả</a>
+                    <a class="product-tab-link tab-link" href="#pshipping" data-bs-toggle="tab">Vận chuyển & Trả lại</a>
+                    <a class="product-tab-link tab-link" href="#pstyle" data-bs-toggle="tab">Kiểu</a>
+                    <a class="product-tab-link tab-link" href="#preview" data-bs-toggle="tab">Các đánh giá</a>
                 </nav>
             </div>
             <div class="tab-content product-tab-content">
@@ -294,30 +294,30 @@
                 </div>
                 <div id="pshipping" class="tab-pane fade">
                     <div class="desc-content">
-                        <h4 class="heading_18 mb-3">Returns within the European Union</h4>
-                        <p class="text_16 mb-4">The European law states that when an order is being returned, it is mandatory for the company to refund the product price and shipping costs charged for the original shipment. Meaning: one shipping fee is paid by us.</p>
-                        <p class="text_16 mb-4">Standard Shipping: If you placed an order using "standard shipping" and you want to return it, you will be refunded the product price and initial shipping costs. However, the return shipping costs will be paid by you.</p>
-                        <p class="text_16">Free Shipping: If you placed an order using "free shipping" and you want to return it, you will be refunded the product price, but since we paid for the initial shipping, you will pay for the return.</p>
+                        <h4 class="heading_18 mb-3"></h4>
+                        <p class="text_16 mb-4"></p>
+                        <p class="text_16 mb-4">Vận chuyển tiêu chuẩn: Nếu bạn đặt hàng bằng "vận chuyển tiêu chuẩn" và bạn muốn trả lại, bạn sẽ được hoàn lại giá sản phẩm và chi phí vận chuyển ban đầu. Tuy nhiên, chi phí vận chuyển trả lại sẽ do bạn thanh toán.</p>
+                        <p class="text_16">Miễn phí vận chuyển: Nếu bạn đặt hàng theo hình thức "miễn phí vận chuyển" và muốn trả lại, bạn sẽ được hoàn lại giá sản phẩm, nhưng vì chúng tôi đã thanh toán chi phí vận chuyển ban đầu nên bạn sẽ phải thanh toán chi phí trả lại.</p>
                     </div>
                 </div>
                 <div id="pstyle" class="tab-pane fade">
                     <div class="desc-content">
-                        <h4 class="heading_18 mb-3">Style with</h4>
-                        <p class="text_16 mb-4">Please also bear in mind that shipping goods back and forth generates greenhouse gases that are accelerating climate change. We encourage you to choose your items carefully to avoid unnecessary return shipments.</p>
-                        <p class="text_16 mb-4">You have to pay for return shipping if you want to exchange your product for another size or the package is returned because it has not been picked up at the post office.</p>
+                        <h4 class="heading_18 mb-3">Phong cách</h4>
+                        <p class="text_16 mb-4">Xin lưu ý rằng việc vận chuyển hàng hóa qua lại tạo ra khí nhà kính làm tăng tốc biến đổi khí hậu. Chúng tôi khuyến khích bạn chọn hàng cẩn thận để tránh việc trả lại hàng không cần thiết.</p>
+                        <p class="text_16 mb-4">Bạn phải trả phí vận chuyển trả lại nếu bạn muốn đổi sản phẩm sang kích thước khác hoặc gói hàng bị trả lại vì bưu điện chưa nhận hàng.</p>
                     </div>
                 </div>
                 <div id="preview" class="tab-pane fade">
                     <div class="review-area accordion-parent">
-                        <h4 class="heading_18 mb-3">Customer Reviews</h4>
+                        <h4 class="heading_18 mb-3">Đánh giá của khách hàng</h4>
                         <div class="review-header d-flex justify-content-between align-items-center">
-                            <p class="text_16">No reviews yet.</p>
-                            <button class="text_14 bg-transparent text-decoration-underline write-btn" type="button">Write a review</button>
+                            <p class="text_16">Chưa có đánh giá nào.</p>
+                            <button class="text_14 bg-transparent text-decoration-underline write-btn" type="button">Viết bài đánh giá</button>
                         </div>
                         <div class="review-form-area accordion-child">
                             <form action="#">
                                 <fieldset>
-                                    <label class="label">Full Name</label>
+                                    <label class="label">Họ và Tên</label>
                                     <input type="text" placeholder="Enter your name" />
                                 </fieldset>
                                 <fieldset>
@@ -325,7 +325,7 @@
                                     <input type="email" placeholder="john.smith@example.com" />
                                 </fieldset>
                                 <fieldset>
-                                    <label class="label">Rating</label>
+                                    <label class="label">Đánh giá</label>
                                     <div class="star-rating">
                                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M15.168 5.77344L10.082 5.23633L8 0.566406L5.91797 5.23633L0.832031 5.77344L4.63086 9.19727L3.57031 14.1992L8 11.6445L12.4297 14.1992L11.3691 9.19727L15.168 5.77344Z" fill="#B2B2B2"/>
@@ -345,15 +345,15 @@
                                     </div>
                                 </fieldset>
                                 <fieldset>
-                                    <label class="label">Review Title</label>
+                                    <label class="label">Tiêu đề đánh giá</label>
                                     <input type="text" placeholder="Give your review a title" />
                                 </fieldset>
                                 <fieldset>
-                                    <label class="label">Body of Review (2000)</label>
+                                    <label class="label">Tất cả các đánh giá (2000)</label>
                                     <textarea cols="30" rows="10" placeholder="Write your comments here"></textarea>
                                 </fieldset>
 
-                                <button type="submit" class="position-relative review-submit-btn">SUBMIT</button>
+                                <button type="submit" class="position-relative review-submit-btn">Xác nhận</button>
                             </form>
                         </div>
                     </div>
@@ -367,7 +367,7 @@
     <div class="featured-collection-section mt-100 home-section overflow-hidden">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-heading">You may also like</h2>
+                <h2 class="section-heading">Bạn cũng có thể thích</h2>
             </div>
 
             <div class="product-container position-relative">

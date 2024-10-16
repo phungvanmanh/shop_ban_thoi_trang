@@ -13,9 +13,9 @@
                                 </svg>
                             </div>
                             <div class="contact-details">
-                                <h2 class="contact-title">Mail Address</h2>
-                                <a class="contact-info" href="mailto:info@example.com">dzfullstack@gmail.com</a>
-                                <a class="contact-info" href="mailto:info2@example.com">quoclongdng@gmail.com</a>
+                                <h2 class="contact-title">Địa chỉ Mail </h2>
+                                <a class="contact-info" href="mailto:info@example.com">detu2809@gmail.com</a>
+                                <a class="contact-info" href="mailto:info2@example.com">hoangvandung291103@gmail.com</a>
                             </div>
                         </div>
                     </div>
@@ -27,8 +27,8 @@
                                 </svg>
                             </div>
                             <div class="contact-details">
-                                <h2 class="contact-title">Office Location</h2>
-                                <p class="contact-info">202 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà Đà Nẵng</p>
+                                <h2 class="contact-title">Vị trí văn phòng</h2>
+                                <p class="contact-info">Kiệt 10 - Phạm Văn Nghị - Thạc Gián - Thanh Khê - Đà Nẵng</p>
                             </div>
                         </div>
                     </div>
@@ -40,8 +40,8 @@
                                 </svg>
                             </div>
                             <div class="contact-details">
-                                <h2 class="contact-title">Phone Number</h2>
-                                <a class="contact-info" href="tel:(201) 555-0124">09055523543</a>
+                                <h2 class="contact-title">Số điện thoại:</h2>
+                                <a class="contact-info" href="tel:(201) 555-0124">0833194777</a>
                             </div>
                         </div>
                     </div>
@@ -66,29 +66,29 @@
                         <div class="row">
                             <div class="col-md-6 col-12">
                                 <fieldset>
-                                    <input type="text" placeholder="Full name" />
+                                    <input type="text" placeholder="Họ Và Tên" />
                                 </fieldset>
                             </div>
                             <div class="col-md-6 col-12">
                                 <fieldset>
-                                    <input type="email" placeholder="Email Address*" />
+                                    <input type="email" placeholder="Địa chỉ Email *" />
                                 </fieldset>
                             </div>
                             <div class="col-md-6 col-12">
                                 <fieldset>
-                                    <input type="text" placeholder="Type a subject" />
+                                    <input type="text" placeholder="Lý do" />
                                 </fieldset>
                             </div>
                             <div class="col-md-6 col-12">
                                 <fieldset>
-                                    <input type="text" placeholder="Phone Number" />
+                                    <input type="text" placeholder="Số điện thoại" />
                                 </fieldset>
                             </div>
                             <div class="col-md-12 col-12">
                                 <fieldset>
-                                    <textarea cols="20" rows="6" placeholder="Write your message here*"></textarea>
+                                    <textarea cols="20" rows="6" placeholder="Viết phản hồi của bạn ở đây*"></textarea>
                                 </fieldset>
-                                <button type="submit" class="position-relative review-submit-btn contact-submit-btn">SEND MESSAGE</button>
+                                <button type="submit" class="position-relative review-submit-btn contact-submit-btn">Gửi tin nhắn</button>
                             </div>
                         </div>
                     </form>

@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.2/axios.min.js" integrity="sha512-NCiXRSV460cHD9ClGDrTbTaw0muWUBf/zB/yLzJavRsPNUl9ODkUVmUHsZtKu17XknhsGlmyVoJxLg/ZQQEeGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<title>Rocker - Bootstrap 5 Admin Dashboard Template</title>
+	<title>Cara - Admin</title>
 </head>
 
 <body class="bg-login">
@@ -44,7 +44,7 @@
 										<p>Bạn chưa có tài khoản? <a href="/customer/register">Đăng Ký Tại Đây</a>
 										</p>
 									</div>
-									<div class="login-separater text-center mb-4"> <span>OR SIGN IN WITH EMAIL</span>
+									<div class="login-separater text-center mb-4"> <span>HOẶC ĐĂNG NHẬP BẰNG EMAIL</span>
 										<hr/>
 									</div>
 									<div class="form-body">

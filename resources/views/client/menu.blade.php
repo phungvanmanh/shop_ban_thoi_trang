@@ -6,7 +6,7 @@
                 <div class="col-2">
                     <div class="header-logo">
                         <a href="/" class="logo-main">
-                            <img src="/assets_client/img/logo.png" loading="lazy" alt="bisum">
+                            <img src="/assets_client/img/logo_Business.png" loading="lazy" alt="Business">
                         </a>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                             <li class="menu-list-item nav-item has-dropdown">
                                 <div class="mega-menu-header">
                                     <a class="nav-link" href="/">
-                                        Home
+                                        Trang Chủ
                                     </a>
                                     {{-- <span class="open-submenu">
                                         <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg"
@@ -33,18 +33,18 @@
                                 {{-- <div class="submenu-transform submenu-transform-desktop">
                                     <ul class="submenu list-unstyled">
                                         <li class="menu-list-item nav-item-sub">
-                                            <a class="nav-link-sub nav-text-sub" href="index.html">Home 1</a>
+                                            <a class="nav-link-sub nav-text-sub" href="index.html">Trang chủ 1</a>
                                         </li>
                                         <li class="menu-list-item nav-item-sub">
-                                            <a class="nav-link-sub nav-text-sub" href="index-shoe.html">Home
+                                            <a class="nav-link-sub nav-text-sub" href="index-shoe.html">Trang chủ
                                                 2</a>
                                         </li>
                                         <li class="menu-list-item nav-item-sub">
-                                            <a class="nav-link-sub nav-text-sub" href="index-bag.html">Home
+                                            <a class="nav-link-sub nav-text-sub" href="index-bag.html">Trang chủ
                                                 3</a>
                                         </li>
                                         <li class="menu-list-item nav-item-sub">
-                                            <a class="nav-link-sub nav-text-sub" href="index-tools.html">Home
+                                            <a class="nav-link-sub nav-text-sub" href="index-tools.html">Trang chủ
                                                 4</a>
                                         </li>
                                     </ul>
@@ -125,7 +125,7 @@
                             <li class="menu-list-item nav-item has-dropdown">
                                 <div class="mega-menu-header">
                                     <a class="nav-link" href="/contact">
-                                        Contact
+                                        Liên Hệ
                                     </a>
                                 </div>
                             </li>

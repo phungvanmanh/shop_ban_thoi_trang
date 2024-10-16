@@ -7,44 +7,44 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-8 col-md-12 col-12">
                             <div class="section-header mb-3">
-                                <h2 class="section-heading">Check out</h2>
+                                <h2 class="section-heading">Kiểm tra</h2>
                             </div>
 
                             <div class="shipping-address-area">
-                                <h2 class="shipping-address-heading pb-1">Shipping address</h2>
+                                <h2 class="shipping-address-heading pb-1">Địa chỉ giao hàng</h2>
                                 <div class="shipping-address-form-wrapper">
                                     <form v-on:submit.prevent="process()" id="formdata"
                                         class="shipping-address-form common-form">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-12 col-12">
                                                 <fieldset>
-                                                    <label class="label">First name</label>
+                                                    <label class="label">Tên</label>
                                                     <input name="ho_lot" type="text" value="{{ $khachHang->ho_lot }}" />
                                                 </fieldset>
                                             </div>
                                             <div class="col-lg-6 col-md-12 col-12">
                                                 <fieldset>
-                                                    <label class="label">Last name</label>
+                                                    <label class="label">Họ</label>
                                                     <input name="ten_khach" type="text"
                                                         value="{{ $khachHang->ten_khach }}" />
                                                 </fieldset>
                                             </div>
                                             <div class="col-lg-6 col-md-12 col-12">
                                                 <fieldset>
-                                                    <label class="label">Email address</label>
+                                                    <label class="label">Địa chỉ Email</label>
                                                     <input name="email" type="email" value="{{ $khachHang->email }}" />
                                                 </fieldset>
                                             </div>
                                             <div class="col-lg-6 col-md-12 col-12">
                                                 <fieldset>
-                                                    <label class="label">Phone number</label>
+                                                    <label class="label">Số điện thoại</label>
                                                     <input name="so_dien_thoai" type="text"
                                                         value="{{ $khachHang->so_dien_thoai }}" />
                                                 </fieldset>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-12">
                                                 <fieldset>
-                                                    <label class="label">Address 1</label>
+                                                    <label class="label">Địa chỉ 1</label>
                                                     <input name="dia_chi" type="text" value="" />
                                                 </fieldset>
                                             </div>
@@ -52,14 +52,10 @@
                                         <div class="shipping-address-area billing-area">
                                             <div
                                                 class="minicart-btn-area d-flex align-items-center justify-content-between flex-wrap">
-                                                <a href="/list-cart" class="checkout-page-btn minicart-btn btn-secondary">BACK TO
-                                                    CART</a>
-                                                {{-- <button type="button" v-if="check_thanh_toan == 0" class="checkout-page-btn minicart-btn btn-primary" data-bs-toggle="modal" data-bs-target="#thanhtoanModal">PROCEED TO
-                                                    SHIPPING</button> --}}
-                                                {{-- <button type="submit" v-else class="checkout-page-btn minicart-btn btn-primary">PROCEED TO
-                                                    SHIPPING</button> --}}
-                                                <button type="submit" class="checkout-page-btn minicart-btn btn-primary">PROCEED TO
-                                                        SHIPPING</button>
+                                                <a href="/list-cart" class="checkout-page-btn minicart-btn btn-secondary">Quay lại giỏ hàng</a>
+                                                {{-- <button type="button" v-if="check_thanh_toan == 0" class="checkout-page-btn minicart-btn btn-primary" data-bs-toggle="modal" data-bs-target="#thanhtoanModal">Tiến hành vận chuyển</button> --}}
+                                                {{-- <button type="submit" v-else class="checkout-page-btn minicart-btn btn-primary">Tiến hành vận chuyển</button> --}}
+                                                <button type="submit" class="checkout-page-btn minicart-btn btn-primary">Tiến hành vận chuyển</button>
                                             </div>
                                         </div>
                                     </form>
@@ -79,7 +75,7 @@
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
-                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                  <button type="button" class="btn btn-primary">Lưu thay đổi</button>
                                 </div>
                               </div>
                             </div>
@@ -104,16 +100,16 @@
                                     </template>
                                     <div class="cart-total-box mt-4 bg-transparent p-0">
                                         <div class="subtotal-item subtotal-box">
-                                            <h4 class="subtotal-title">Subtotals:</h4>
+                                            <h4 class="subtotal-title">Tổng mặt hàng:</h4>
                                             <p class="subtotal-value">@{{ numberformat(sub) }}</p>
                                         </div>
                                         <div class="subtotal-item shipping-box">
-                                            <h4 class="subtotal-title">Shipping:</h4>
+                                            <h4 class="subtotal-title">Giao hàng:</h4>
                                             <p class="subtotal-value">@{{ numberformat(ship) }}</p>
                                         </div>
                                         <hr />
                                         <div class="subtotal-item discount-box">
-                                            <h4 class="subtotal-title">Total:</h4>
+                                            <h4 class="subtotal-title">Tổng:</h4>
                                             <p class="subtotal-value">@{{ numberformat(ship + sub) }}</p>
                                         </div>
                                     </div>

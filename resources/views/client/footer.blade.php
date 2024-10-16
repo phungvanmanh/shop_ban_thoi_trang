@@ -7,7 +7,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-6 col-12 footer-widget">
                         <div class="footer-widget-inner">
                             <h4 class="footer-heading d-flex align-items-center justify-content-between">
-                                <span>About</span>
+                                <span>Thông tin</span>
                                 <span class="d-md-none">
                                     <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
@@ -17,18 +17,18 @@
                                 </span>
                             </h4>
                             <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                <li class="footer-menu-item"><a href="about-us.html">About us</a></li>
-                                <li class="footer-menu-item"><a href="about-us.html">Press center</a></li>
-                                <li class="footer-menu-item"><a href="blog.html">Our magazine</a></li>
-                                <li class="footer-menu-item"><a href="about-us.html">Our group</a></li>
-                                <li class="footer-menu-item"><a href="about-us.html">Work with us</a></li>
+                                <li class="footer-menu-item"><a href="about-us.html">Về chúng tôi</a></li>
+                                <li class="footer-menu-item"><a href="about-us.html">Trung tâm báo chí</a></li>
+                                <li class="footer-menu-item"><a href="blog.html">Tạp chí của chúng tôi</a></li>
+                                <li class="footer-menu-item"><a href="about-us.html">Nhóm của chúng tôi</a></li>
+                                <li class="footer-menu-item"><a href="about-us.html">Làm việc với chúng tôi</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-6 col-12 footer-widget">
                         <div class="footer-widget-inner">
                             <h4 class="footer-heading d-flex align-items-center justify-content-between">
-                                <span>Shopping</span>
+                                <span>Mua Sắm</span>
                                 <span class="d-md-none">
                                     <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
@@ -38,18 +38,17 @@
                                 </span>
                             </h4>
                             <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                <li class="footer-menu-item"><a href="about-us.html">Brand catalog</a></li>
-                                <li class="footer-menu-item"><a href="about-us.html">Discount codes</a></li>
-                                <li class="footer-menu-item"><a href="collection-left-sidebar.html">Furniture</a></li>
+                                <li class="footer-menu-item"><a href="about-us.html">Danh mục thương hiệu</a></li>
+                                <li class="footer-menu-item"><a href="about-us.html">Mã giảm giá</a></li>
+                                <li class="footer-menu-item"><a href="collection-left-sidebar.html">Nội thất</a></li>
                                 <li class="footer-menu-item"><a href="collection-left-sidebar.html">Sofa</a></li>
-                                <li class="footer-menu-item"><a href="collection-left-sidebar.html">Chair</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-6 col-12 footer-widget">
                         <div class="footer-widget-inner">
                             <h4 class="footer-heading d-flex align-items-center justify-content-between">
-                                <span>Help</span>
+                                <span>Trợ Giúp</span>
                                 <span class="d-md-none">
                                     <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
@@ -59,27 +58,25 @@
                                 </span>
                             </h4>
                             <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                <li class="footer-menu-item"><a href="faq.html">Chair</a></li>
-                                <li class="footer-menu-item"><a href="about-us.html">Privacy policy</a></li>
-                                <li class="footer-menu-item"><a href="about-us.html">Support</a></li>
-                                <li class="footer-menu-item"><a href="contact.html">Contact</a></li>
+                                <li class="footer-menu-item"><a href="about-us.html">Chính sách bảo mật</a></li>
+                                <li class="footer-menu-item"><a href="about-us.html">Hỗ Trợ</a></li>
+                                <li class="footer-menu-item"><a href="contact.html">Liên hệ</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-5 col-md-6 col-12 footer-widget">
                         <div class="footer-widget-inner">
                             <h4 class="footer-logo">
-                                <a href="/"><img src="/assets_client/img/logo-white.png" alt="bisum"></a>
+                                <!-- <a href="/"><img src="/assets_client/img/logo_shopping.png" alt="Cara"></a> -->
                             </h4>
                             <div class="footer-newsletter">
-                                <p class="footer-text mb-3">Stay up to date with all the news.</p>
+                                <p class="footer-text mb-3">Cập nhật mọi tin tức.</p>
                                 <div class="newsletter-wrapper">
                                     <form action="#" class="footer-newsletter-form d-flex align-items-center">
                                         <input class="footer-newsletter-input bg-transparent" type="email"
                                             placeholder="Your e-mail" autocomplete="off">
                                         <button class="footer-newsletter-btn newsletter-btn-white"
-                                            type="submit">SIGN
-                                            UP</button>
+                                            type="submit">ĐĂNG KÝ</button>
                                     </form>
                                 </div>
                                 <div class="footer-social-wrapper">
@@ -154,10 +151,10 @@
             <div
                 class="footer-bottom-inner d-flex flex-wrap justify-content-md-between justify-content-center align-items-center">
                 <ul class="footer-bottom-menu list-unstyled d-flex flex-wrap align-items-center mb-0">
-                    <li class="footer-menu-item"><a href="about-us.html">Privacy policy</a></li>
-                    <li class="footer-menu-item"><a href="about-us.html">Terms & Conditions</a></li>
+                    <li class="footer-menu-item"><a href="about-us.html">Chính sách bảo mật</a></li>
+                    <li class="footer-menu-item"><a href="about-us.html">Điều khoản & Điều kiện</a></li>
                 </ul>
-                <p class="copyright footer-text">©<span class="current-year"></span> Spree Themes.</p>
+                <p class="copyright footer-text">©<span class="current-year"></span> Chủ đề báo chí.</p>
             </div>
         </div>
     </div>

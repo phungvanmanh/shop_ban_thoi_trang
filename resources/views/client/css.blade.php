@@ -1,10 +1,9 @@
-<title>Bisum - eCommerce Bootstrap 5 Template</title>
+<title>Business - Website mua sắm</title>
 <!-- meta tags -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="meta description">
-<link rel="shortcut icon" href="/assets_client/img/favicon.png" type="image/x-icon">
 <!-- fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +11,7 @@
 <!-- all css -->
 <style>
     :root {
+
         --primary-color: #F76B6A;
         --secondary-color: #F76B6A;
 

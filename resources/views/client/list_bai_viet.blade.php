@@ -9,7 +9,7 @@
                     <img src="{{$value->hinh_anh}}" alt="img"
                         class="article-card-img rounded">
 
-                    {{-- <span class="article-tag article-tag-absolute rounded">Decor</span> --}}
+                    {{-- <span class="article-tag article-tag-absolute rounded">Trang trí</span> --}}
                 </a>
                 <p class="article-card-published text_12 d-flex align-items-center">
                     <span class="article-date d-flex align-items-center">
@@ -32,7 +32,7 @@
                                     fill="#00234D" />
                             </svg>
                         </span>
-                        <span class="ms-2">Admin</span>
+                        <span class="ms-2">Quản trị viên</span>
                     </span>
                 </p>
                 <h2 class="article-card-heading heading_18">

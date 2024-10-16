@@ -40,7 +40,7 @@
                         @if(isset($list_link[$i]))
                         <a class="btn-primary slide-btn animate__animated animate__fadeInUp"
                             href="{{$list_link[$i]}}"
-                            data-animation="animate__animated animate__fadeInUp">SHOP NOW</a>
+                            data-animation="animate__animated animate__fadeInUp">MUA NGAY</a>
                         @endif
                     </div>
                 </div>

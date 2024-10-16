@@ -17,8 +17,8 @@ class ConfigSeeder extends Seeder
         DB::table('configs')->insert([
             [
                 'list_image'    =>  'https://spreethemesprevious.github.io/bisum/html/assets/img/slideshow/s1.jpg,https://spreethemesprevious.github.io/bisum/html/assets/img/slideshow/s2.jpg,https://spreethemesprevious.github.io/bisum/html/assets/img/slideshow/s3.jpg',
-                'list_title'    =>  'TIEU DE 01||I LOVE YOU OKE',
-                'list_des'      =>  'Look for your inspiration here|Tui là thằng thứ 2 nghen bạn|Tui cũng rứa',
+                'list_title'    =>  'Sản phẩm bán chạy',
+                'list_des'      =>  '',
                 'list_link'     =>  '/san-pham/ao-dai|https://google.com|/admin/login',
             ]
         ]);

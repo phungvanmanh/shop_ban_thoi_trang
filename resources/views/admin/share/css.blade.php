@@ -22,4 +22,4 @@
 <link rel="stylesheet" href="/assets_admin/css/dark-theme.css" />
 <link rel="stylesheet" href="/assets_admin/css/semi-dark.css" />
 <link rel="stylesheet" href="/assets_admin/css/header-colors.css" />
-<title>Rocker - Bootstrap 5 Admin Dashboard Template</title>
+<title>Cara - Admin</title>

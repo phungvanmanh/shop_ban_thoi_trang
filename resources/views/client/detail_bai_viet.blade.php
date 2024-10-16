@@ -19,7 +19,7 @@
                                         fill="#00234D" />
                                 </svg>
                             </span>
-                            <span class="ms-2">Admin</span>
+                            <span class="ms-2">Quản trị viên</span>
                         </span>
                         <span class="article-separator mx-3">
                             <svg width="2" height="12" viewBox="0 0 2 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="share-area mt-5 d-flex align-items-center">
-                    <strong class="label mb-1 d-block">Share:</strong>
+                    <strong class="label mb-1 d-block">Chia sẻ:</strong>
                     <ul class="list-unstyled share-list d-flex align-items-center mb-1 flex-wrap">
                         <li class="share-item">
                             <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,8 +73,8 @@
                 </div>
 
                 <div class="next-prev-article mt-5 d-flex align-items-center justify-content-between">
-                    <a href="article.html" class="article-btn prev-article-btn mt-2">PREV ARTICLE</a>
-                    <a href="article.html" class="article-btn next-article-btn active mt-2">NEXT ARTICLE</a>
+                    <a href="article.html" class="article-btn prev-article-btn mt-2">BÀI VIẾT TRƯỚC</a>
+                    <a href="article.html" class="article-btn next-article-btn active mt-2">BÀI VIẾT TIẾP THEO</a>
                 </div>
 
             </div>

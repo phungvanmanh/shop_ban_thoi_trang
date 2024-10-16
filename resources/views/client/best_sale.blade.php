@@ -2,10 +2,6 @@
 <div class="featured-collection-section mt-100 home-section overflow-hidden">
     <div class="container">
         <div class="section-header text-center">
-            <p class="section-subheading">WHAT'S NEW</p>
-            <h2 class="section-heading">SẢN PHẨM BÁN CHẠY NHẤT</h2>
-        </div>
-
         <div class="product-container position-relative">
             <div class="common-slider" data-slick='{
             "slidesToShow": 4,

@@ -9,11 +9,11 @@
                             <table class="cart-table w-100">
                                 <thead>
                                     <tr>
-                                        <th class="cart-caption heading_18">Product</th>
+                                        <th class="cart-caption heading_18">sản phẩm</th>
                                         <th class="cart-caption heading_18"></th>
-                                        <th class="cart-caption text-center heading_18 d-none d-md-table-cell">Quantity</th>
-                                        <th class="cart-caption text-end heading_18">Price</th>
-                                        <th class="cart-caption text-end heading_18">Sub Total</th>
+                                        <th class="cart-caption text-center heading_18 d-none d-md-table-cell">Số lượng</th>
+                                        <th class="cart-caption text-end heading_18">Giá</th>
+                                        <th class="cart-caption text-end heading_18">Tổng cộng</th>
                                     </tr>
                                 </thead>
 
@@ -39,7 +39,7 @@
                                                     <button class="qty-btn inc-qty" v-on:click="value.so_luong++; update(value)"><img
                                                             src="/assets_client/img/icon/plus.svg" alt="plus" ></button>
                                                 </div>
-                                                <a href="#" class="product-remove mt-2 text-danger" v-on:click="destroy(value)">Remove</a>
+                                                <a href="#" class="product-remove mt-2 text-danger" v-on:click="destroy(value)">Xóa</a>
                                             </td>
                                             <td class="cart-item-price text-end">
                                                 <div class="product-price">@{{ numberformat(tinhGia(value.gia_ban, value.gia_khuyen_mai)) }}</div>
@@ -54,25 +54,25 @@
                         </div>
                         <div class="col-lg-5 col-md-12 col-12">
                             <div class="cart-total-area">
-                                <h3 class="cart-total-title d-none d-lg-block mb-0">Cart Totals</h4>
+                                <h3 class="cart-total-title d-none d-lg-block mb-0">Tổng số mặt hàng</h4>
                                     <div class="cart-total-box mt-4">
                                         <div class="subtotal-item subtotal-box">
-                                            <h4 class="subtotal-title">Subtotals:</h4>
+                                            <h4 class="subtotal-title">Tổng các mặt hàng:</h4>
                                             <p class="subtotal-value">@{{ numberformat(sub) }}</p>
                                         </div>
                                         <div class="subtotal-item shipping-box">
-                                            <h4 class="subtotal-title">Shipping:</h4>
+                                            <h4 class="subtotal-title">Giao hàng:</h4>
                                             <p class="subtotal-value">@{{ numberformat(ship) }}</p>
                                         </div>
                                         <hr />
                                         <div class="subtotal-item discount-box">
-                                            <h4 class="subtotal-title">Total:</h4>
+                                            <h4 class="subtotal-title">Tổng:</h4>
                                             <p class="subtotal-value">@{{ numberformat(ship + sub) }}</p>
                                         </div>
-                                        <p class="shipping_text">Shipping & taxes calculated at checkout</p>
+                                        <p class="shipping_text">Phí vận chuyển và thuế được tính khi thanh toán</p>
                                         <div class="d-flex justify-content-center mt-4">
                                             <a href="/checkout" class="position-relative btn-primary text-uppercase">
-                                                Procced to checkout
+                                            Tiến hành thanh toán
                                             </a>
                                         </div>
                                     </div>

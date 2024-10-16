@@ -109,7 +109,7 @@
                 <div class="col-6">
                     <div class="card">
                         <div class="card-header">
-                            <h3>BEST SALE</h3>
+                            <h3>BÁN CHẠY NHẤT</h3>
                         </div>
                         <div class="card-body">
                             <form id="formBestSale">
@@ -192,7 +192,7 @@
                 <div class="col-6">
                     <div class="card">
                         <div class="card-header">
-                            <h3>SALE</h3>
+                            <h3>ĐANG BÁN</h3>
                         </div>
                         <div class="card-body">
                             <form id="formSale">

@@ -6,8 +6,8 @@
             <b>@{{ thong_bao }}</b>
             <form v-on:submit.prevent="add_1()" id="formdata_1" class="login-form common-form mx-auto">
                 <div class="section-header mb-3 text-end">
-                    <button type="button" class="btn btn-success" v-on:click="trang_thai = 0">Login</button>
-                    <h2 class="section-heading text-center">Register</h2>
+                    <button type="button" class="btn btn-success" v-on:click="trang_thai = 0">Đăng Nhập</button>
+                    <h2 class="section-heading text-center">Đăng ký</h2>
                 </div>
                 <div class="row">
                     <div class="col-12">
@@ -24,19 +24,19 @@
                     </div>
                     <div class="col-12">
                         <fieldset>
-                            <label class="label">Email address</label>
+                            <label class="label">Địa chỉ Email</label>
                             <input required type="email" name="email" />
                         </fieldset>
                     </div>
                     <div class="col-12">
                         <fieldset>
-                            <label class="label">Password</label>
+                            <label class="label">Mật Khẩu</label>
                             <input required name="password" type="password" />
                         </fieldset>
                     </div>
                     <div class="col-12">
                         <fieldset>
-                            <label class="label">Re Password</label>
+                            <label class="label">Nhập lại mật khẩu</label>
                             <input required name="re_password" type="password" />
                         </fieldset>
                     </div>
@@ -63,7 +63,7 @@
                         </fieldset>
                     </div>
                     <div class="col-12 mt-3">
-                        <button type="submit" class="btn-primary d-block mt-3 btn-signin">REGISTER</button>
+                        <button type="submit" class="btn-primary d-block mt-3 btn-signin">Đăng KÝ</button>
                     </div>
                 </div>
             </form>
@@ -74,19 +74,19 @@
             <b>@{{ thong_bao }}</b>
             <form v-on:submit.prevent="login_1()" id="formdata_1" class="login-form common-form mx-auto">
                 <div class="section-header mb-3 text-end">
-                    <button type="button" class="btn btn-primary" v-on:click="trang_thai = 1">Register</button>
-                    <h2 class="section-heading text-center">Login</h2>
+                    <button type="button" class="btn btn-primary" v-on:click="trang_thai = 1">Đăng ký</button>
+                    <h2 class="section-heading text-center">Đăng Nhập</h2>
                 </div>
                 <div class="row">
                     <div class="col-12">
                         <fieldset>
-                            <label class="label">Email address</label>
+                            <label class="label">Địa chỉ Email</label>
                             <input required type="email" name="email" />
                         </fieldset>
                     </div>
                     <div class="col-12">
                         <fieldset>
-                            <label class="label">Password</label>
+                            <label class="label">Mật Khẩu</label>
                             <input required name="password" type="password" />
                         </fieldset>
                     </div>
@@ -94,7 +94,7 @@
                         <a href="/forgot-password" class="text_14 d-block">Quên Mật Khẩu?</a>
                     </div>
                     <div class="col-12 mt-3">
-                        <button type="submit" class="btn-primary d-block mt-3 btn-signin">LOGIN</button>
+                        <button type="submit" class="btn-primary d-block mt-3 btn-signin">Đăng Nhập</button>
                     </div>
                 </div>
             </form>
